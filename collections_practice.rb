@@ -2,4 +2,5 @@
 
 def begins_with_r(array)
  array.split.all? do |word|
-   word.start_with 
+   word.start_with? "r"
+ end
