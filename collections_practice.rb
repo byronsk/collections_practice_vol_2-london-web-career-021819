@@ -1,7 +1,9 @@
 # your code goes here
 
-def begins_with_r(tools)
-  
+  def begins_with_r(tools)
+    tools.each do | words |
+   words.start_with? "r"
+  end
 end
 
 def contain_a
