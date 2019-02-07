@@ -2,5 +2,5 @@
 
 def collections
   array = []
-dictionary.select { |word| word.start_with?('a') }
-
+array.select { |word| word.start_with?('r') }
+end
