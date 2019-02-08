@@ -15,7 +15,6 @@ end
 def first_wa(tools)
   tools.any? 
  end
-end
 
 def remove_non_string(array)
 end
