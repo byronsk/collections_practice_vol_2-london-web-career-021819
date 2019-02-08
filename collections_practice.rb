@@ -19,8 +19,6 @@ def first_wa(tools)
 def remove_non_string(array)
 end
 
-def remove_non_string(array)
-end
 
 def count_elements(array)
  
