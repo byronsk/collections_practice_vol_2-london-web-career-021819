@@ -12,7 +12,10 @@ def contain_a(tools)
  end
 end
 
-def first_wa
+def first_wa(tools)
+  tools.map do |words|
+    words.start_with? "wa"
+ end
 end
 
 def remove_non_string(array)
