@@ -8,7 +8,8 @@ end
 
 def contain_a(tools)
   tools.select do |str|
-    str.include? 
+    str.include?("a")
+ end
 end
 
 def first_wa
