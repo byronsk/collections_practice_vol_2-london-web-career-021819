@@ -1,7 +1,7 @@
 # your code goes here
 
 def begins_with_r(tools)
-  tools.all? do | words |
+  tools.all? do |words|
   words.start_with? "r"
   end
 end
@@ -13,7 +13,7 @@ def contain_a(tools)
 end
 
 def first_wa(tools)
-  tools.map do |words|
+  tools.all? do |words|
     words.start_with? "wa"
  end
 end
