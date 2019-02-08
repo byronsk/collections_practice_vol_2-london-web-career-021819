@@ -24,6 +24,7 @@ def remove_non_string(array)
 end
 
 def count_elements(array)
+  array.group_by{|x|x}.map{|x,y| [x,y.size]}
 end
 
 def merge_data
