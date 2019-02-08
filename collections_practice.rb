@@ -6,7 +6,9 @@ def begins_with_r(tools)
   end
 end
 
-def contain_a
+def contain_a(tools)
+  tools.select do |str|
+    str.
 end
 
 def first_wa
