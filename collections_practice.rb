@@ -13,8 +13,8 @@ def contain_a(tools)
 end
 
 def first_wa(tools)
-  tools.all? do |words|
-    words.start_with? "wa"
+  tools.any? do |words|
+    words.start_with? ("wa")
  end
 end
 
